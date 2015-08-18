@@ -1,36 +1,36 @@
-[RunLogicEndRoot:vuser_end]
-MercIniTreeSectionName="vuser_end"
-RunLogicObjectKind="Action"
-Name="vuser_end"
-MercIniTreeFather="RunLogicEndRoot"
-RunLogicActionType="VuserEnd"
 [RunLogicInitRoot:vuser_init]
 MercIniTreeSectionName="vuser_init"
 RunLogicObjectKind="Action"
 Name="vuser_init"
-MercIniTreeFather="RunLogicInitRoot"
 RunLogicActionType="VuserInit"
+MercIniTreeFather="RunLogicInitRoot"
+[RunLogicEndRoot:vuser_end]
+MercIniTreeSectionName="vuser_end"
+RunLogicObjectKind="Action"
+Name="vuser_end"
+RunLogicActionType="VuserEnd"
+MercIniTreeFather="RunLogicEndRoot"
 [RunLogicRunRoot:Action]
 MercIniTreeSectionName="Action"
 RunLogicObjectKind="Action"
 Name="Action"
-MercIniTreeFather="RunLogicRunRoot"
 RunLogicActionType="VuserRun"
+MercIniTreeFather="RunLogicRunRoot"
 [RunLogicErrorHandlerRoot:vuser_errorhandler]
 MercIniTreeSectionName="vuser_errorhandler"
 RunLogicObjectKind="Action"
 Name="vuser_errorhandler"
-MercIniTreeFather="RunLogicErrorHandlerRoot"
 RunLogicActionType="VuserErrorHandler"
+MercIniTreeFather="RunLogicErrorHandlerRoot"
 [Profile Actions]
-MercIniTreeSectionName="Profile Actions"
 Profile Actions name=vuser_init,Action,vuser_end
+MercIniTreeSectionName="Profile Actions"
 MercIniTreeFather=""
 [RunLogicRunRoot]
 RunLogicActionOrder="Action"
 MercIniTreeFather=""
 MercIniTreeSons="Action"
-RunLogicNumOfIterations="1"
+RunLogicNumOfIterations="2"
 Name="Run"
 RunLogicRunMode="Sequential"
 RunLogicObjectKind="Group"
