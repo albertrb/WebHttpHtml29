@@ -1,5 +1,5 @@
 Action()
 {
-	//server change
+	//server change qq
 	return 0;
 }
