@@ -41,7 +41,7 @@ vuser_init=cci
 [Modified Actions]
 Action=1
 Action1=0
-Action2=0
+Action2=1
 vuser_end=0
 vuser_init=1
 [Recorded Actions]
