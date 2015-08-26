@@ -40,7 +40,7 @@ vuser_end=cci
 vuser_init=cci
 [Modified Actions]
 Action=1
-Action1=0
+Action1=1
 Action2=1
 vuser_end=0
 vuser_init=1
