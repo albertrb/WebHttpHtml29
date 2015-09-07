@@ -1,7 +1,7 @@
 [Actions]
 Action=Action.c
 Action1=Action1.c
-Action2=Action2.c
+Action3=Action3.c
 vuser_end=vuser_end.c
 vuser_init=vuser_init.c
 [ActiveReplay]
@@ -35,25 +35,25 @@ Type=Multi
 [Interpreters]
 Action=cci
 Action1=cci
-Action2=cci
+Action3=cci
 vuser_end=cci
 vuser_init=cci
 [Modified Actions]
 Action=1
 Action1=1
-Action2=1
+Action3=0
 vuser_end=0
 vuser_init=1
 [Recorded Actions]
 Action=0
 Action1=0
-Action2=0
+Action3=0
 vuser_end=0
 vuser_init=0
 [Replayed Actions]
 Action=0
 Action1=0
-Action2=0
+Action3=0
 vuser_end=0
 vuser_init=0
 [RunLogicFiles]
