@@ -1,5 +1,5 @@
 Action()
 {
-	//local
-	return 0;   
+	//The best comment ever 2
+	return 0;
 }
